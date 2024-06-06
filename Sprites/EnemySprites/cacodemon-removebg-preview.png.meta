@@ -1,0 +1,932 @@
+fileFormatVersion: 2
+guid: 14a78c2bffe3aac4ba91287115f45230
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2318e91f296eae74085b918d602da647
+      internalID: 1517781854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 368
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704ef32ea14e74746860db4f4c084806
+      internalID: 1362286859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 367
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b819f607ab0b34291c275e749913f4
+      internalID: 1681456984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 367
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae5666d2c8c8914fa66823717f5ba09
+      internalID: 1424501101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 369
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0971239e51d27cf419c852e8dac72b0b
+      internalID: 1937161725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 369
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019c1c18a881cce4cb14deb7788a4f8b
+      internalID: 166881489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 368
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9178119d36eb00f418c2c687bea818bf
+      internalID: 1211146312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352d80cae0fa17c4f9da79e7388963e3
+      internalID: 1251975089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 290
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8816e792e01eb1f4ab35dfd86b510696
+      internalID: 408179122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 290
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fe448b3ab54e241b834025676f63f2
+      internalID: -433049272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 290
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1139a8ed6fe27744a3fd0df7da2b0db
+      internalID: 111024508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 215
+        width: 62
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9e5cc2a8eb0c4468a3c3880ca6a54e
+      internalID: -1512485865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 290
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0dac754a49ab346bbb86529647db90
+      internalID: -1638193913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cadbd9626932b458e6bce6475551bd
+      internalID: 175612284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 218
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770fd78290749fe47a337583b466040b
+      internalID: -1225320494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 218
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be21077ce197df41ab4322132b87085
+      internalID: 1776511842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 218
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b12f6a07e906b4a9fc791d8df4c967
+      internalID: -142856650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 218
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e4de35ad7d72d41bcf7b742e0f6e37
+      internalID: 358218067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8cfa37b683d2a42ab3e1f30530919e
+      internalID: -812114414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 146
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be0c8056bf16fb43892313340ce4a86
+      internalID: 1755242541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 146
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b91e328abbc5e4d8ffecb586f1f8f3
+      internalID: 171024645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 146
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506fbe4dccb1ca44380cd39fa908c8fd
+      internalID: -1774741192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 146
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea89cd00f0ae36498e4959487271f0b
+      internalID: 294014441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 146
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ac538ddd0010b4baeee06c210ee66f
+      internalID: 1414972047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86e95eef2be3974a9e5fbaea27bb8fa
+      internalID: 283969368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 74
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e282953984c004c8b520847252de91
+      internalID: -1189146737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 76
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba871d843590904468b39338d0209347
+      internalID: 1749881423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 74
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e6ee3d7a80fcf489edf4139c6f4072
+      internalID: -1266831813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 73
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be1318b908c80543bae3aabea87aa08
+      internalID: -838242824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 74
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b352696b7a07814eb63ee6409645cf7
+      internalID: 628089948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebc0d741ca7fe24191ce1c2f1f694e2
+      internalID: -1493046765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c52c2a787803748b54159d5c374507
+      internalID: -602045676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3995434dafd97e6498564908c3ffd4cc
+      internalID: 1645192988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 56
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f954a1c7ca98d46a772dad5e591aef
+      internalID: -1612714066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96312fb6c403614cb9f5830358be840
+      internalID: -1810024330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodemon-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456fda94d1e370341b9127b9b05d07af
+      internalID: 1178728751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 331125e8c588fe3448a5aa3b9909584d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cacodemon-removebg-preview_0: 1517781854
+      cacodemon-removebg-preview_1: 1362286859
+      cacodemon-removebg-preview_10: 111024508
+      cacodemon-removebg-preview_11: -1512485865
+      cacodemon-removebg-preview_12: -1638193913
+      cacodemon-removebg-preview_13: 175612284
+      cacodemon-removebg-preview_14: -1225320494
+      cacodemon-removebg-preview_15: 1776511842
+      cacodemon-removebg-preview_16: -142856650
+      cacodemon-removebg-preview_17: 358218067
+      cacodemon-removebg-preview_18: -812114414
+      cacodemon-removebg-preview_19: 1755242541
+      cacodemon-removebg-preview_2: 1681456984
+      cacodemon-removebg-preview_20: 171024645
+      cacodemon-removebg-preview_21: -1774741192
+      cacodemon-removebg-preview_22: 294014441
+      cacodemon-removebg-preview_23: 1414972047
+      cacodemon-removebg-preview_24: 283969368
+      cacodemon-removebg-preview_25: -1189146737
+      cacodemon-removebg-preview_26: 1749881423
+      cacodemon-removebg-preview_27: -1266831813
+      cacodemon-removebg-preview_28: -838242824
+      cacodemon-removebg-preview_29: 628089948
+      cacodemon-removebg-preview_3: 1424501101
+      cacodemon-removebg-preview_30: -1493046765
+      cacodemon-removebg-preview_31: -602045676
+      cacodemon-removebg-preview_32: 1645192988
+      cacodemon-removebg-preview_33: -1612714066
+      cacodemon-removebg-preview_34: -1810024330
+      cacodemon-removebg-preview_35: 1178728751
+      cacodemon-removebg-preview_4: 1937161725
+      cacodemon-removebg-preview_5: 166881489
+      cacodemon-removebg-preview_6: 1211146312
+      cacodemon-removebg-preview_7: 1251975089
+      cacodemon-removebg-preview_8: 408179122
+      cacodemon-removebg-preview_9: -433049272
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
