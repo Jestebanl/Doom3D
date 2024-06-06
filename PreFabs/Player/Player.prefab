@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8075469191734718616}
   - component: {fileID: 544016142626901824}
   - component: {fileID: 6563492632658182028}
+  - component: {fileID: 1075233557310255577}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -114,6 +115,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1075233557310255577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632937091967785314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d4f1cf86c22b34428afb80103812450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensitivity: 1.5
+  smoothing: 1.5
+  currentLookingPosX: 0
 --- !u!1 &2723409439957222722
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,7 +402,6 @@ GameObject:
   - component: {fileID: 1685627023491978006}
   - component: {fileID: 8422847097014127056}
   - component: {fileID: 5603701256226648919}
-  - component: {fileID: 4607862494275264289}
   - component: {fileID: 500139323972622226}
   - component: {fileID: 1989884859071909817}
   m_Layer: 0
@@ -455,20 +470,6 @@ MonoBehaviour:
   playerSpeed: 10
   momentumDamping: 5
   canAnim: {fileID: 6563492632658182028}
---- !u!114 &4607862494275264289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8879706823061607919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d4f1cf86c22b34428afb80103812450, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sensitivity: 1.5
-  smoothing: 1.5
 --- !u!114 &500139323972622226
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,9 +7,12 @@ public class MouseLook : MonoBehaviour
     public float smoothing = 1.5f;
 
     private float xMousePos;
-    private float smoothedMousePos;
+    private float yMousePos;
+    private float smoothedMousePosX;
+    private float smoothedMousePosY;
 
-    private float currentLookingPos;
+    public float currentLookingPosX;
+    private float currentLookingPosY;
 
 
     private void Start()
@@ -31,18 +34,25 @@ public class MouseLook : MonoBehaviour
     void GetInput()
     {
         xMousePos = Input.GetAxisRaw("Mouse X");
+        yMousePos = Input.GetAxisRaw("Mouse Y");
     }
 
     void ModifyInput()
     {
         xMousePos *= sensitivity * smoothing;
-        smoothedMousePos = Mathf.Lerp(a: smoothedMousePos, b: xMousePos, t: 1f / smoothing);
+        yMousePos *= sensitivity * smoothing;
+        smoothedMousePosX = Mathf.Lerp(a: smoothedMousePosX, b: xMousePos, t: 1f / smoothing);
+        smoothedMousePosY = Mathf.Lerp(a: smoothedMousePosY, b: yMousePos, t: 1f / smoothing);
     }
 
     void MovePlayer()
     {
-        currentLookingPos += smoothedMousePos;
-        transform.localRotation = Quaternion.AngleAxis(currentLookingPos, transform.up);
+        currentLookingPosX += smoothedMousePosX;
+        currentLookingPosY += smoothedMousePosY;
+        //transform.localRotation = Quaternion.AngleAxis(currentLookingPosX, transform.up);
+        //transform.localRotation = Quaternion.AngleAxis(currentLookingPosY, transform.right);
+        transform.localRotation = Quaternion.Euler(-currentLookingPosY, 0f, 0f);
+        Debug.Log("Angulo camara " + currentLookingPosX);
     }
 
 

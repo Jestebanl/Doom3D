@@ -10,6 +10,7 @@ public class EnemyAwareness : MonoBehaviour
     private void Start()
     {
         playersTransform = FindObjectOfType<PlayerMove>().transform;
+        awarenessRadius = 15f;
     }
 
 
@@ -17,7 +18,7 @@ public class EnemyAwareness : MonoBehaviour
     {
         var dist = Vector3.Distance(playersTransform.position, transform.position);
 
-        Debug.Log(dist);
+        
         if (dist < awarenessRadius)
         {
             isAggro = true;

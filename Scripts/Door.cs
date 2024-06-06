@@ -13,7 +13,6 @@ public class Door : MonoBehaviour
 
 
 
-    public GameObject areaToSpawn;
 
 
     private void Start()
@@ -40,21 +39,21 @@ public class Door : MonoBehaviour
                 {
                     doorAnim.SetTrigger("OpenDoor");
                     isOpen = true;
-                    areaToSpawn.SetActive(true);
+                    
                 }
 
                 if (reqGreen && other.GetComponent<PlayerInventory>().hasGreen)
                 {
                     doorAnim.SetTrigger("OpenDoor");
                     isOpen = true;
-                    areaToSpawn.SetActive(true);
+                    
                 }
 
                 if (reqBlue && other.GetComponent<PlayerInventory>().hasBlue)
                 {
                     doorAnim.SetTrigger("OpenDoor");
                     isOpen = true;
-                    areaToSpawn.SetActive(true);
+                    
                 }
 
             }
@@ -62,7 +61,7 @@ public class Door : MonoBehaviour
             {
                 doorAnim.SetTrigger("OpenDoor");
                 isOpen = true;
-                areaToSpawn.SetActive(true);
+                
             }
         }
     }
