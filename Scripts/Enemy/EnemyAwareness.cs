@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyAwareness : MonoBehaviour
 {
-    public float awarenessRadius = 20f;
+    public float awarenessRadius = 15f;
     public bool isAggro;
 
     private Transform playersTransform;
@@ -15,8 +15,9 @@ public class EnemyAwareness : MonoBehaviour
 
     private void Update()
     {
-        var dist = Vector3.Distance(playersTransform.position, playersTransform.position);
+        var dist = Vector3.Distance(playersTransform.position, transform.position);
 
+        Debug.Log(dist);
         if (dist < awarenessRadius)
         {
             isAggro = true;

@@ -21,6 +21,8 @@ public class EnemyAttack : MonoBehaviour
 
     [SerializeField]
     private GameObject enemyAttackPrefab;
+
+    private EnemyAwareness aggro;
     
     //private float bulletSpeed = 3f;
     
@@ -51,9 +53,9 @@ public class EnemyAttack : MonoBehaviour
         
         attackCooldown = attackCooldown - Time.deltaTime;
         
-        var dist = Vector3.Distance(player.position, player.position);
+        var dist = Vector3.Distance(player.position, transform.position);
         
-        if (dist < attackRadius && attackCooldown < 0f && !enemy.estaMuerto)
+        if (dist < attackRadius && attackCooldown < 0f && !enemy.estaMuerto && aggro.isAggro)
         {
             EnemyAttacking();
         }
