@@ -52,7 +52,7 @@ public class MouseLook : MonoBehaviour
         //transform.localRotation = Quaternion.AngleAxis(currentLookingPosX, transform.up);
         //transform.localRotation = Quaternion.AngleAxis(currentLookingPosY, transform.right);
         transform.localRotation = Quaternion.Euler(-currentLookingPosY, 0f, 0f);
-        Debug.Log("Angulo camara " + currentLookingPosX);
+        
     }
 
 

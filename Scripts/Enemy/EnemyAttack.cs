@@ -44,6 +44,7 @@ public class EnemyAttack : MonoBehaviour
         playerHealth = FindObjectOfType<PlayerHealth>();
         enemyDamagingPlayer = false;
         enemy = GetComponent<Enemy>();
+        aggro = GetComponent<EnemyAwareness>();
     }
 
     void Update()

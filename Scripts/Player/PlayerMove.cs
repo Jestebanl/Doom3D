@@ -27,7 +27,6 @@ public class PlayerMove : MonoBehaviour
         GetInput();
         MovePlayer();
         transform.localRotation = Quaternion.AngleAxis(direccionMirar.currentLookingPosX, transform.up);
-        Debug.Log("Angulo player " + direccionMirar.currentLookingPosX);
         canAnim.SetBool("isWalking", isWalking);
 
     }

@@ -5,7 +5,7 @@ public class PlayerHealth : MonoBehaviour
 {
 
     public int maxHealth;
-    private int health;
+    public int health;
 
     public int maxArmor;
     public int armor;
