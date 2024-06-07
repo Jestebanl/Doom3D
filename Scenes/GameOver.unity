@@ -242,7 +242,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 581485435}
-  play: {fileID: 1720484995}
 --- !u!1 &296989171
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,8 +346,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 037e52fff582027499b8256d8a48bf93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allEnemiesDead: 0
-  enemiesLeft: []
 --- !u!4 &581485436
 Transform:
   m_ObjectHideFlags: 0
@@ -628,7 +625,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 55.999992}
+  m_AnchoredPosition: {x: 0, y: 55.999985}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1276812306
@@ -1061,7 +1058,6 @@ GameObject:
   - component: {fileID: 1720484997}
   - component: {fileID: 1720484996}
   - component: {fileID: 1720484995}
-  - component: {fileID: 1720484998}
   m_Layer: 5
   m_Name: Try Again
   m_TagString: tryAgain
@@ -1171,19 +1167,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720484993}
   m_CullTransparentMesh: 1
---- !u!114 &1720484998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720484993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d09929072ce538346a4de4d33840c257, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  play: {fileID: 0}
 --- !u!1 &1830120418
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,6 +1265,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1830120421}
   - {fileID: 791962589}
+  - {fileID: 581485436}
   - {fileID: 174018222}
   - {fileID: 1424847149}
-  - {fileID: 581485436}

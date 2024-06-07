@@ -3946,6 +3946,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1568433435015977719, guid: d3402d64121f62c4dadff6d1ad784aa1, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 2046836694}
     - target: {fileID: 2913447677369514507, guid: d3402d64121f62c4dadff6d1ad784aa1, type: 3}
       propertyPath: m_Name
       value: EnemyManager
@@ -9905,8 +9909,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 037e52fff582027499b8256d8a48bf93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allEnemiesDead: 0
-  enemiesLeft: []
 --- !u!4 &2046836695
 Transform:
   m_ObjectHideFlags: 0
