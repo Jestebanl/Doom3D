@@ -19,7 +19,7 @@ public class EnemyManager : MonoBehaviour
         gameManager = FindObjectOfType<GameManager>();
         
         playerHealth = FindObjectOfType<PlayerHealth>();
-        enemiesLeft = GetComponents<Enemy>();
+        enemiesLeft = FindObjectsOfType<Enemy>();
         allEnemiesDead = false;
         
     }
@@ -28,9 +28,10 @@ public class EnemyManager : MonoBehaviour
     {
         foreach (Enemy enemy in enemiesLeft)
         {
-            if (enemy.IsUnityNull())
+            if (enemy.estaMuerto)
             {
                 allEnemiesDead = true;
+                
             }
             else
             {
