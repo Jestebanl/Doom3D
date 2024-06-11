@@ -12,14 +12,17 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //al empezar el juego, el player empieza con la salud máxima y con la armadura a 0
         health = maxHealth;
         armor = 0;
+        //actualizamos en el canvas del estado del player para que muestre la vida y armadura actual
         CanvasManager.Instance.UpdateHealth(health);
         CanvasManager.Instance.UpdateArmor(armor);
     }
-
+    //cuando el enemgio recibe daño , se usa esta funcion para comprobar la armadura y l vida que tenga
     public void DamagePlayer(int damage)
     {
+        //si tiene 
         if (armor > 0)
         {
             if (armor >= damage)
