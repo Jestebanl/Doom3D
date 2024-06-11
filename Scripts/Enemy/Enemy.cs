@@ -26,22 +26,22 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        // beginning of update set the animations rotation
+        //el comienzo del update setea la animacion de rotacion
         spriteAnim.SetFloat("spriteRot", angleToPlayer.lastIndex);
-
+         //Comprobamos si la salud del enemigo es igual o inferior a 0 para eliminarlo de la scena
         if (enemyHealth <= 0)
         {
             enemyManager.RemoveEnemy(this);
             estaMuerto = true;
-            spriteAnim.SetBool("estaMuerto", true);
+            spriteAnim.SetBool("estaMuerto", true);//le damos la animacion de muerte poniendo a true el boolean de muerto
             
         }
-
-        // any animations we call will have updated index
+        
     }
-
+    //Esta funcion esta diseñada para manejar el daño recibido en el enemigo
     public void TakeDamage(float damage)
     {
+        //instanciamos un prefab(gunHitEffect) en la posicion exacta del enemigo, sin rotacion(Quaternion.identity)
         Instantiate(gunHitEffect, transform.position, Quaternion.identity);
         enemyHealth -= damage;
         
