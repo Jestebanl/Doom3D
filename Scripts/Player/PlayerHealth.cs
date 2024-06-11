@@ -18,16 +18,6 @@ public class PlayerHealth : MonoBehaviour
         CanvasManager.Instance.UpdateArmor(armor);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        /*if (Input.GetKeyDown(KeyCode.RightShift))
-        {
-            DamagePlayer(30);
-            
-        }*/
-    }
-
     public void DamagePlayer(int damage)
     {
         if (armor > 0)
