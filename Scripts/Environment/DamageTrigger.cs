@@ -7,8 +7,8 @@ public class DamageTrigger : MonoBehaviour
     private bool damagingPlayer;
     private PlayerHealth playerHealth;
 
-    public int damageAmount = 10;
-    public float timeBetweenDamage = 1.5f;
+    public int damageAmount = 20;
+    public float timeBetweenDamage = 0.5f;
 
 
     private float damageCounter;
