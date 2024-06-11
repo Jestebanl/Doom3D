@@ -12,30 +12,28 @@ public class DamageTrigger : MonoBehaviour
 
 
     private float damageCounter;
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         damageCounter = timeBetweenDamage;
-        playerHealth = FindObjectOfType<PlayerHealth>();
+        playerHealth = FindObjectOfType<PlayerHealth>();//buscamos la salud del enemigo llamando al script PlayerHealth
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
+        //si los elementos del mapa estan dañando al enemigo
         if (damagingPlayer)
         {
-            // damage player every (timeBetweenDamage) 1.5 seconds
+            //daña al enemigo cada 1.5 segundos
             if(damageCounter >= timeBetweenDamage)
             {
-                // damage player
+                // le quitamos vida al player mediante una funcion llamada DamageHealth()
                 playerHealth.DamagePlayer(damageAmount);
 
-                // restart counter
+                // reestablecemos el contador para que tarde otros 1.5 segundos en hacer daño
                 damageCounter = 0f;
             }
-
-            // add to counter
+            
             damageCounter += Time.deltaTime;
         }
         else
@@ -43,16 +41,17 @@ public class DamageTrigger : MonoBehaviour
             damageCounter = 0f;
         }
     }
-
+    //Creamos una funcione para saber si el player esta chocando con una elemento del mapa que produzca daño 
     private void OnTriggerEnter(Collider other)
     {
+        //si el elemento tiene como tag "player" entonces empezara el proceso de hacer daño
         if (other.CompareTag("Player"))
         {
             damageCounter = timeBetweenDamage;
             damagingPlayer = true;
         }
     }
-
+    //esta funcion sirve para que el ambiente deje de hacer daño al player cundo no está tocando un elemento dañino del mapa
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
