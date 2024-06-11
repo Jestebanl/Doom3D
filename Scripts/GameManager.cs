@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    
+    //creamos funciones que servirán para cargar las distintas escenas del juego,como el menu principal o el mapa
     public void Menu()
     {
         SceneManager.LoadScene(0);

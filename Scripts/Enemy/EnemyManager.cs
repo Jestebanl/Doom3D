@@ -16,11 +16,12 @@ public class EnemyManager : MonoBehaviour
     
     void Start()
     {
+        //buscamos al comienzo el gameManager
         gameManager = FindObjectOfType<GameManager>();
-        
+        //llamamos a la salud del player desde el script PlayerHealth
         playerHealth = FindObjectOfType<PlayerHealth>();
-        enemiesLeft = FindObjectsOfType<Enemy>();
-        allEnemiesDead = false;
+        enemiesLeft = FindObjectsOfType<Enemy>();//total de enemigos a vencer
+        allEnemiesDead = true;
         
     }
     
@@ -28,22 +29,17 @@ public class EnemyManager : MonoBehaviour
     {
         foreach (Enemy enemy in enemiesLeft)
         {
-            if (enemy.estaMuerto)
-            {
-                allEnemiesDead = true;
-                
-            }
-            else
+            if (!enemy.estaMuerto)
             {
                 allEnemiesDead = false;
             }
         }
-        
+        //si la saud del jugador es negativa, ha muerto y aparece la escena especificada en la funcion Defeat()
         if (playerHealth.health <= 0)
         {
             gameManager.Defeat();
         }
-
+        //Si todos los enemigos estan muertos, el player ha ganado y sale la escena de victorio
         if (allEnemiesDead)
         {
             gameManager.Victory();
