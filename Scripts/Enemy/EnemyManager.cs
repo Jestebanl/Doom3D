@@ -38,7 +38,7 @@ public class EnemyManager : MonoBehaviour
             gameManager.Victory();
         }
     }
-
+   //funciones para añadir o eliminar un enemigo
     public void AddEnemyInTrigger(Enemy enemy)
     {
         enemiesInTrigger.Add(enemy);
@@ -47,7 +47,7 @@ public class EnemyManager : MonoBehaviour
     {
         enemiesInTrigger.Remove(enemy);
     }
-    
+    //funciones para añadir un enemigo vivo y otro para remover un enemigo con vida 0
     public void AddEnemyAlive(Enemy enemy)
     {
         enemiesLeft.Add(enemy);
