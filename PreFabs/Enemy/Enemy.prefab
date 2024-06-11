@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRadius: 10
-  enemyAttackInterval: 1.5
+  enemyAttackInterval: 2
   attackCooldown: 0
   enemyAttackPrefab: {fileID: 4636143934417326926, guid: 387fd7cfe20b2cc4dab8c3bc73307656, type: 3}
   timeBetweenDealingDamage: 1.5

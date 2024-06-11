@@ -14,7 +14,7 @@ public class EnemyAttack : MonoBehaviour
     public float attackRadius = 10f;
     
     [SerializeField]
-    private float enemyAttackInterval = 1.5f;
+    private float enemyAttackInterval = 2f;
     
     [SerializeField]
     private float attackCooldown;
@@ -24,12 +24,7 @@ public class EnemyAttack : MonoBehaviour
 
     private EnemyAwareness aggro;
     
-    //private float bulletSpeed = 3f;
-    
-    //private Vector3 targetPos;
-    //private Vector3 movementVector;
-    
-    public float timeBetweenDealingDamage = 1.5f;
+    public float timeBetweenDealingDamage = 1f;
 
 
     private float damageCounter;
@@ -81,14 +76,10 @@ public class EnemyAttack : MonoBehaviour
     private void EnemyAttacking()
     {
         attackCooldown = enemyAttackInterval;
-        Enemy enemy = GetComponent<Enemy>();
+        
         
         GameObject disparoEnemigoInstancia = Instantiate(enemyAttackPrefab);
         disparoEnemigoInstancia.transform.position = new Vector3(enemy.transform.position.x, enemy.transform.position.y, enemy.transform.position.z);
-        
-
-        //movementVector = (targetPos * bulletSpeed);
-        //disparoEnemigoInstancia.GetComponent<Rigidbody>().MovePosition(targetPos);
         
 
     }
