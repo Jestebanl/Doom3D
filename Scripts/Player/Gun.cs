@@ -49,11 +49,11 @@ public class Gun : MonoBehaviour
         // Si tiene municion
         if(ammo > 0)
         {
-            // rango simulado de tiro
+            // Encuentra todos los enemigos dentro del gunShotRadius 
             Collider[] enemyColliders;
             enemyColliders = Physics.OverlapSphere(transform.position, gunShotRadius, enemyLayerMask);
 
-            //alert any  enemy in earshot
+            //Marca los enemigos como agresivos
             foreach (var enemyCollider in enemyColliders)
             {
                 enemyCollider.GetComponent<EnemyAwareness>().isAggro = true;
@@ -68,7 +68,7 @@ public class Gun : MonoBehaviour
             
                 //get direction to enemy
                 var dir = enemy.transform.position - transform.position;
-
+                //Comprueba la linea de visión hacia el enemigo
                 RaycastHit hit;
                 if (Physics.Raycast(transform.position, dir, out hit, range * 1.5f, raycastLayerMask))
                 {
@@ -79,12 +79,12 @@ public class Gun : MonoBehaviour
                         float dist = Vector3.Distance(enemy.transform.position, transform.position);
                         if (dist > range * 0.5f)
                         {
-                            //damage enemy small
+                            //El enemigo recibe menos daño al estar más lejos 
                             enemy.TakeDamage(smallDamage);
                         }
                         else
                         {
-                            //damage enemy big
+                            //El enemigo recibe mas daño al estar cerca
                             enemy.TakeDamage(bigDamage);
                         }
                     }
