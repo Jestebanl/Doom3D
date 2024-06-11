@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
          //Comprobamos si la salud del enemigo es igual o inferior a 0 para eliminarlo de la scena
         if (enemyHealth <= 0)
         {
-            enemyManager.RemoveEnemy(this);
+            enemyManager.RemoveEnemyInTrigger(this);
             estaMuerto = true;
             spriteAnim.SetBool("estaMuerto", true);//le damos la animacion de muerte poniendo a true el boolean de muerto
             

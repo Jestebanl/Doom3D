@@ -126,7 +126,7 @@ public class Gun : MonoBehaviour
 
         if (enemy)
         {
-            enemyManager.AddEnemy(enemy);
+            enemyManager.AddEnemyInTrigger(enemy);
         }
     }
 
@@ -137,7 +137,7 @@ public class Gun : MonoBehaviour
 
         if (enemy)
         {
-            enemyManager.RemoveEnemy(enemy);
+            enemyManager.RemoveEnemyInTrigger(enemy);
         }
     }
 

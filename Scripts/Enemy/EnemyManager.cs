@@ -18,6 +18,7 @@ public class EnemyManager : MonoBehaviour
     {
         //buscamos al comienzo el gameManager
         gameManager = FindObjectOfType<GameManager>();
+        
         //llamamos a la salud del player desde el script PlayerHealth
         playerHealth = FindObjectOfType<PlayerHealth>();
 
@@ -38,11 +39,11 @@ public class EnemyManager : MonoBehaviour
         }
     }
 
-    public void AddEnemy(Enemy enemy)
+    public void AddEnemyInTrigger(Enemy enemy)
     {
         enemiesInTrigger.Add(enemy);
     }
-    public void RemoveEnemy(Enemy enemy)
+    public void RemoveEnemyInTrigger(Enemy enemy)
     {
         enemiesInTrigger.Remove(enemy);
     }
