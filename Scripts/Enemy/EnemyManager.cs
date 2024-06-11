@@ -11,40 +11,26 @@ public class EnemyManager : MonoBehaviour
 
     private PlayerHealth playerHealth;
     
-    public bool allEnemiesDead;
-    public Enemy[] enemiesLeft;
+    public List<Enemy> enemiesLeft;
+
     
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
         
         playerHealth = FindObjectOfType<PlayerHealth>();
-        enemiesLeft = FindObjectsOfType<Enemy>();
-        allEnemiesDead = false;
-        
+
     }
     
     void Update()
     {
-        foreach (Enemy enemy in enemiesLeft)
-        {
-            if (enemy.estaMuerto)
-            {
-                allEnemiesDead = true;
-                
-            }
-            else
-            {
-                allEnemiesDead = false;
-            }
-        }
         
         if (playerHealth.health <= 0)
         {
             gameManager.Defeat();
         }
 
-        if (allEnemiesDead)
+        if (enemiesLeft.Count == 0)
         {
             gameManager.Victory();
         }
@@ -58,4 +44,15 @@ public class EnemyManager : MonoBehaviour
     {
         enemiesInTrigger.Remove(enemy);
     }
+    
+    public void AddEnemyAlive(Enemy enemy)
+    {
+        enemiesLeft.Add(enemy);
+    }
+    public void RemoveEnemyDead(Enemy enemy)
+    {
+        enemiesLeft.Remove(enemy);
+    }
+    
+    
 }

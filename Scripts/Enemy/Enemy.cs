@@ -6,7 +6,6 @@ public class Enemy : MonoBehaviour
     private Animator spriteAnim;
     private AngleToPlayer angleToPlayer;
     
-    
     private float enemyHealth = 2f;
     public bool estaMuerto;
     
@@ -21,6 +20,7 @@ public class Enemy : MonoBehaviour
 
         enemyManager = FindObjectOfType<EnemyManager>(); // we can do this because there's only 1 in the scene
         
+        enemyManager.AddEnemyAlive(this);
         estaMuerto = false;
     }
 
@@ -35,6 +35,8 @@ public class Enemy : MonoBehaviour
             estaMuerto = true;
             spriteAnim.SetBool("estaMuerto", true);
             
+            enemyManager.RemoveEnemyDead(this);
+
         }
 
         // any animations we call will have updated index
